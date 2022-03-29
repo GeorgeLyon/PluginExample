@@ -5,11 +5,7 @@ import PackageDescription
 let package = Package(
   name: "PluginExample",
   products: [],
-  dependencies: [
-    .package(
-      url: "https://github.com/apple/swift-format",
-      branch: "release/5.6")
-  ],
+  dependencies: [],
   targets: [
     .executableTarget(
       name: "BuildTool"),
